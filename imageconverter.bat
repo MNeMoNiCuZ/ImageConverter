@@ -1,3 +1,4 @@
-@echo off 
+@echo off
+cd /d %~dp0
 call venv\Scripts\activate
-cmd /k "cd /d %~dp0 & call venv\Scripts\activate & python imageconverter.py"
+python imageconverter.py %*

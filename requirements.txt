@@ -1,2 +1,5 @@
 tkinterdnd2
 pillow
+moviepy
+pillow-avif-plugin
+pyinstaller
